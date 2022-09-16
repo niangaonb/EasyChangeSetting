@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.niangaoa.easychangesetting.ECSController">
+   <children>
+       <GridPane layoutY="107.0" prefHeight="414.0" prefWidth="600.0">
+           <columnConstraints>
+               <ColumnConstraints hgrow="SOMETIMES" maxWidth="183.0" minWidth="10.0" prefWidth="123.0"/>
+               <ColumnConstraints hgrow="SOMETIMES" maxWidth="171.0" minWidth="10.0" prefWidth="119.0"/>
+               <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="161.0"/>
+               <ColumnConstraints hgrow="SOMETIMES" maxWidth="126.0" minWidth="10.0" prefWidth="88.0"/>
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+           </columnConstraints>
+           <rowConstraints>
+               <RowConstraints maxHeight="26.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="79.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="97.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="108.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES"/>
+           </rowConstraints>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="垂直同步" textAlignment="CENTER"
+                 wrappingWidth="121.240234375" GridPane.rowIndex="1"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="最大帧率(FPS)" textAlignment="CENTER"
+                 wrappingWidth="121.240234375" GridPane.rowIndex="2"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="开发模式" textAlignment="CENTER"
+                 wrappingWidth="121.240234375" GridPane.rowIndex="3"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="无边框窗口化" textAlignment="CENTER"
+                 wrappingWidth="121.240234375" GridPane.rowIndex="4"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="全屏时默认无边框" textAlignment="CENTER"
+                 wrappingWidth="121.240234375" GridPane.rowIndex="5"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="允许任何版本java(不推荐)" textAlignment="CENTER"
+                 wrappingWidth="121.240234375" GridPane.rowIndex="6"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="按ALT快速转移货物(可能有bug)" textAlignment="CENTER"
+                 wrappingWidth="129.240234375" GridPane.rowIndex="7"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="最大战场规模" textAlignment="CENTER"
+                 wrappingWidth="129.240234375" GridPane.rowIndex="8"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="玩家最高等级" textAlignment="CENTER"
+                 wrappingWidth="129.240234375" GridPane.rowIndex="9"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="舰队舰船数量" textAlignment="CENTER"
+                 wrappingWidth="129.240234375" GridPane.rowIndex="10"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  同一时间赏金的最低数(低配慎用)" textAlignment="CENTER"
+                 wrappingWidth="129.240234375" GridPane.rowIndex="11"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="   同一时间赏金的最高数(低配慎用)" textAlignment="CENTER"
+                 wrappingWidth="129.240234375" GridPane.rowIndex="12"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="参数名" textAlignment="CENTER" wrappingWidth="129.0"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="现设置" textAlignment="CENTER" wrappingWidth="121.0"
+                 GridPane.columnIndex="1"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="调整" textAlignment="CENTER" wrappingWidth="163.0"
+                 GridPane.columnIndex="2"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="调整" textAlignment="CENTER" wrappingWidth="91.0"
+                 GridPane.columnIndex="3"/>
+           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="默认" textAlignment="CENTER" wrappingWidth="103.0"
+                 GridPane.columnIndex="4"/>
+           <TextField fx:id="tef1" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+           <TextField fx:id="tef2" GridPane.columnIndex="2" GridPane.rowIndex="8"/>
+           <TextField fx:id="tef4" GridPane.columnIndex="2" GridPane.rowIndex="10"/>
+           <TextField fx:id="tef3" GridPane.columnIndex="2" GridPane.rowIndex="9"/>
+           <TextField fx:id="tef5" GridPane.columnIndex="2" GridPane.rowIndex="11"/>
+           <TextField fx:id="tef6" GridPane.columnIndex="2" GridPane.rowIndex="12"/>
+           <Button mnemonicParsing="false" onAction="#onYes1" prefHeight="23.0" prefWidth="172.0" text="是"
+                   GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+           <Button mnemonicParsing="false" onAction="#onYes3" prefHeight="23.0" prefWidth="250.0" text="是"
+                   GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+           <Button mnemonicParsing="false" onAction="#onYes4" prefHeight="23.0" prefWidth="222.0" text="是"
+                   GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+           <Button mnemonicParsing="false" onAction="#onYes6" prefHeight="23.0" prefWidth="230.0" text="是"
+                   GridPane.columnIndex="2" GridPane.rowIndex="7"/>
+           <Button mnemonicParsing="false" onAction="#onNo1" prefHeight="23.0" prefWidth="135.0" text="否"
+                   GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+           <Button mnemonicParsing="false" onAction="#onEss1" prefHeight="23.0" prefWidth="135.0" text="确定"
+                   GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+           <Button mnemonicParsing="false" onAction="#onNo2" prefHeight="23.0" prefWidth="135.0" text="否"
+                   GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+           <Button mnemonicParsing="false" onAction="#onYes2" prefHeight="23.0" prefWidth="202.0" text="是"
+                   GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+           <Button mnemonicParsing="false" onAction="#onYes5" prefHeight="23.0" prefWidth="286.0" text="是"
+                   GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+           <Button mnemonicParsing="false" onAction="#onNo3" prefHeight="23.0" prefWidth="135.0" text="否"
+                   GridPane.columnIndex="3" GridPane.rowIndex="4"/>
+           <Button mnemonicParsing="false" onAction="#onEss2" prefHeight="23.0" prefWidth="135.0" text="确定"
+                   GridPane.columnIndex="3" GridPane.rowIndex="8"/>
+           <Button mnemonicParsing="false" onAction="#onEss3" prefHeight="23.0" prefWidth="135.0" text="确定"
+                   GridPane.columnIndex="3" GridPane.rowIndex="9"/>
+           <Button mnemonicParsing="false" onAction="#onEss4" prefHeight="23.0" prefWidth="135.0" text="确定"
+                   GridPane.columnIndex="3" GridPane.rowIndex="10"/>
+           <Button mnemonicParsing="false" onAction="#onEss5" prefHeight="23.0" prefWidth="135.0" text="确定"
+                   GridPane.columnIndex="3" GridPane.rowIndex="11"/>
+           <Button mnemonicParsing="false" onAction="#onEss6" prefHeight="23.0" prefWidth="135.0" text="确定"
+                   GridPane.columnIndex="3" GridPane.rowIndex="12"/>
+           <Button mnemonicParsing="false" onAction="#onNo4" prefHeight="23.0" prefWidth="135.0" text="否"
+                   GridPane.columnIndex="3" GridPane.rowIndex="5"/>
+           <Button mnemonicParsing="false" onAction="#onNo5" prefHeight="23.0" prefWidth="135.0" text="否"
+                   GridPane.columnIndex="3" GridPane.rowIndex="6"/>
+           <Button mnemonicParsing="false" onAction="#onNo6" prefHeight="23.0" prefWidth="135.0" text="否"
+                   GridPane.columnIndex="3" GridPane.rowIndex="7"/>
+           <Button mnemonicParsing="false" onAction="#onRe1" prefHeight="23.0" prefWidth="277.0" text="恢复默认(是)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="1"/>
+           <Button mnemonicParsing="false" onAction="#onRe2" prefHeight="23.0" prefWidth="130.0" text="恢复默认(60)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="2"/>
+           <Button mnemonicParsing="false" onAction="#onRe3" prefHeight="23.0" prefWidth="144.0" text="恢复默认(否)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="3"/>
+           <Button mnemonicParsing="false" onAction="#onRe4" prefHeight="23.0" prefWidth="148.0" text="恢复默认(否)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="4"/>
+           <Button mnemonicParsing="false" onAction="#onRe5" prefHeight="23.0" prefWidth="148.0" text="恢复默认(是)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="5"/>
+           <Button mnemonicParsing="false" onAction="#onRe6" prefHeight="23.0" prefWidth="148.0" text="恢复默认(否)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="6"/>
+           <Button mnemonicParsing="false" onAction="#onRe9" prefHeight="23.0" prefWidth="148.0" text="恢复默认(50)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="9"/>
+           <Button mnemonicParsing="false" onAction="#onRe8" prefHeight="23.0" prefWidth="148.0" text="恢复默认(500)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="8"/>
+           <Button mnemonicParsing="false" onAction="#onRe7" prefHeight="23.0" prefWidth="148.0" text="恢复默认(否)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="7"/>
+           <Button mnemonicParsing="false" onAction="#onRe10" prefHeight="23.0" prefWidth="148.0" text="恢复默认(30)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="10"/>
+           <Button mnemonicParsing="false" onAction="#onRe11" prefHeight="23.0" prefWidth="148.0" text="恢复默认(3)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="11"/>
+           <Button mnemonicParsing="false" onAction="#onRe12" prefHeight="23.0" prefWidth="148.0" text="恢复默认(5)"
+                   GridPane.columnIndex="4" GridPane.rowIndex="12"/>
+           <Text fx:id="set1" strokeType="OUTSIDE" strokeWidth="0.0" text="否" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+           <Text fx:id="set2" strokeType="OUTSIDE" strokeWidth="0.0" text="60" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+           <Text fx:id="set3" strokeType="OUTSIDE" strokeWidth="0.0" text="否" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+           <Text fx:id="set4" strokeType="OUTSIDE" strokeWidth="0.0" text="否" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+           <Text fx:id="set5" strokeType="OUTSIDE" strokeWidth="0.0" text="是" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+           <Text fx:id="set6" strokeType="OUTSIDE" strokeWidth="0.0" text="否" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+           <Text fx:id="set7" strokeType="OUTSIDE" strokeWidth="0.0" text="否" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+           <Text fx:id="set8" strokeType="OUTSIDE" strokeWidth="0.0" text="500" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+           <Text fx:id="set9" strokeType="OUTSIDE" strokeWidth="0.0" text="50" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+           <Text fx:id="set10" strokeType="OUTSIDE" strokeWidth="0.0" text="30" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="10"/>
+           <Text fx:id="set11" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="11"/>
+           <Text fx:id="set12" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER"
+                 wrappingWidth="122.240234375" GridPane.columnIndex="1" GridPane.rowIndex="12"/>
+       </GridPane>
+       <Text fill="#00a10b" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="简易修改游戏配置(ECS)" textAlignment="CENTER" wrappingWidth="615.240234375">
+           <font>
+               <Font size="46.0" />
+           </font>
+       </Text>
+   </children>
+</Pane>
